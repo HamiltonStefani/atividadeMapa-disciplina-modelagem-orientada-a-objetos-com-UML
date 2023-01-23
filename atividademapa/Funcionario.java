@@ -83,7 +83,7 @@ public class Funcionario implements ModeloCrud {
     @Override
     public void excluir() {
         System.out.println("*Excluir funcionario"); 
-        System.out.println("Excluindo o código do funcionario: " + this.getId());
+        System.out.println("Excluindo o funcionario -  código do funcionario: " + this.getId());
         System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
         System.out.println("__________________________________________");
        
@@ -92,7 +92,7 @@ public class Funcionario implements ModeloCrud {
     @Override
     public void recuperar() {
         System.out.println("*Recuperar funcionário excluido");
-        System.out.println("recuperar o  código do funcionario: " + this.getId());
+        System.out.println("recuperar o funcionario - código do funcionario: " + this.getId());
         System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
         System.out.println("__________________________________________");
     }
